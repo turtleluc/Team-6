@@ -10,21 +10,53 @@ public class Next_Text : MonoBehaviour
     public int texthoeveelheid = 7;
     int i = 0;
 
+    
+
+    public GameObject Text1;
+    public GameObject Text2;
+    public GameObject Text3;
+    public GameObject Text4;
+    public GameObject Text5;
+    public GameObject Text6;
+
+
     public void text()
     {
         
         i++;
-        Debug.Log(i);
 
+        
         if (i >= texthoeveelheid)
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
 
-        else 
+        else if (i == 1)
+        {
+            
+            Text1.SetActive(false);
+            Text2.SetActive(true);
+        }
+
+        else if (i == 2)
         {
 
         }
-       
+
+        else if (i == 3)
+        {
+
+        }
+
+        else if (i == 4)
+        {
+
+        }
+
+        else
+        {
+
+        }
+
     }
 }
