@@ -40,17 +40,20 @@ public class Next_Text : MonoBehaviour
 
         else if (i == 2)
         {
-
+            Text2.SetActive(false);
+            Text3.SetActive(true);
         }
 
         else if (i == 3)
         {
-
+            Text3.SetActive(false);
+            Text4.SetActive(true);
         }
 
         else if (i == 4)
         {
-
+            Text4.SetActive(false);
+            Text5.SetActive(true);
         }
 
         else
