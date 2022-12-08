@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class NewBehaviourScript : MonoBehaviour
 {
-   public int u = 1
+   public int u = 1;
 
     public void henk()
     {
