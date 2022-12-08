@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class pauzemenu2 : MonoBehaviour
 {
@@ -12,25 +13,31 @@ public class pauzemenu2 : MonoBehaviour
             {
                 Time.timeScale = 0f;
                 pauzemenu.SetActive(true);
-                Cursor.visible = true;
+                
             }
             else
             {
                 Time.timeScale = 1f;
                 pauzemenu.SetActive(false);
-                Cursor.visible = false;
+                
 
             }
    }
 
    public void verder()
-   {
-       Time.timeScale = 1f;
+    {
+        Time.timeScale = 1f;
         pauzemenu.SetActive(false);
     Cursor.visible = false;
-   }
+    }
    public void stoppen()
    {
         Application.Quit();
    }
+
+     public void hoofdmenu()
+    {
+        SceneManager.LoadScene("Menu");
+    }
+
 }
