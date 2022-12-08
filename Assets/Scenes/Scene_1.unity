@@ -430,7 +430,7 @@ MonoBehaviour:
   m_fontSize: 20
   m_fontSizeBase: 20
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 0
   m_fontSizeMax: 12.45
   m_fontStyle: 0
@@ -754,10 +754,10 @@ RectTransform:
   m_Father: {fileID: 1257872773}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1157.8883, y: 564.2104}
-  m_SizeDelta: {x: 266.3219, y: 161.2162}
+  m_AnchorMin: {x: 1, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -362.1117, y: -155.78961}
+  m_SizeDelta: {x: 266.3219, y: 161.21619}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1273933900
 MonoBehaviour:
@@ -1011,6 +1011,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Canvas (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6418614755731769240, guid: bbd294849fc819e49ab840b35846bd1e, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7852431788063698879, guid: bbd294849fc819e49ab840b35846bd1e, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -1093,6 +1097,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7852431788063698879, guid: bbd294849fc819e49ab840b35846bd1e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8969984134329835413, guid: bbd294849fc819e49ab840b35846bd1e, type: 3}
+      propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
