@@ -134,6 +134,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: pauze menu
       objectReference: {fileID: 0}
+    - target: {fileID: 6418614755731769240, guid: bbd294849fc819e49ab840b35846bd1e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7852431788063698879, guid: bbd294849fc819e49ab840b35846bd1e, type: 3}
       propertyPath: m_Pivot.x
       value: 0
