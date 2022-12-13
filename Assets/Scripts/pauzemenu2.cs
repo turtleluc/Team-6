@@ -15,6 +15,7 @@ public class pauzemenu2 : MonoBehaviour
                 pauzemenu.SetActive(true);
                 
             }
+
             else
             {
                 Time.timeScale = 1f;
@@ -28,7 +29,7 @@ public class pauzemenu2 : MonoBehaviour
     {
         Time.timeScale = 1f;
         pauzemenu.SetActive(false);
-    Cursor.visible = false;
+        Cursor.visible = false;
     }
    public void stoppen()
    {
