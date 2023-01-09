@@ -4,14 +4,17 @@ using UnityEngine;
 
 public class Test : MonoBehaviour
 {
-    public int k = 1
+    public int k = 1;
     
     public void Teller()
     {
         k++;
-        Debug.Log(k)
-        Debug.Log("test")
+        Debug.Log(k);
+        Debug.Log("test");
     }
 
     
+       
+           
+            burger.interactable = !startButton.interactable;
 }
