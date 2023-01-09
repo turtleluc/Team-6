@@ -15,6 +15,4 @@ public class Test : MonoBehaviour
 
     
        
-           
-            burger.interactable = !startButton.interactable;
 }
