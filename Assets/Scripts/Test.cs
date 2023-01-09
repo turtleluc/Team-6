@@ -13,8 +13,5 @@ public class Test : MonoBehaviour
         Debug.Log("test");
     }
 
-     public void burger()
-   { 
-   }
-       
+
 }
