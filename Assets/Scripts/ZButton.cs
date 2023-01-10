@@ -5,22 +5,26 @@ using UnityEngine.UI;
 
 public class ZButton : MonoBehaviour
 {
-private Button thisButton;
+   
 
-    private void Start()
-    {
+     private Button thisButton;
+
+        private void Start()
+        {
         PowerButton.PowerButtonClicked += TurnButtonOnAndOff;
         thisButton = GetComponent<Button>();
-    }
+        }
 
 
-    private void TurnButtonOnAndOff(bool isOn)
-    {
+        private void TurnButtonOnAndOff(bool isOn)
+        {   
         thisButton.interactable = isOn;
-    }
+        }
 
-    private void OnDestroy()
-    {
+         private void OnDestroy()
+        {
         PowerButton.PowerButtonClicked -= TurnButtonOnAndOff;
-    }
+        }
+    
+    
 }
