@@ -1,9 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
-public class aanenuit : MonoBehaviour
+public class ZButton : MonoBehaviour
 {
+private Button thisButton;
 
     private void Start()
     {
