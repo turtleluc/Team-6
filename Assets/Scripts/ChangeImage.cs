@@ -3,15 +3,15 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class Burgor : MonoBehaviour
+public class ChangeImage : MonoBehaviour
 {
 
     public Sprite newButtonImage;
-    public Button newButton;
+    public Button button;
 
-    public void Disable()
+    public void ChangeButtonImage()
     {
-      newButton.image.sprite = newButtonImage;
+        button.image.sprite = newButtonImage;
     }
 
     

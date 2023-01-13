@@ -17,11 +17,12 @@ public class scr_DynaText : MonoBehaviour
     private int delay;
 
     private string[] txt = new string[]{
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      "Nunc sit amet pretium enim. Morbi ut tempus est, et egestas lectus.",
-      "Praesent et consectetur nisi. Etiam ut ornare dui, iaculis feugiat nulla.",
-      "Einde Bericht!",
-      "Grapje toch niet!"
+      "Paula- STEVE!!!",
+      "Steve- wat?! Oh oeps.",
+      "Paula- Steve Goedhuis, je bent nu verdomd 18 jaar en ik moet je nog steeds uit je bed trommelen zodat je op tijd op school komt. Ga nou eens naar je leeftijd gedragen! ",
+      "Steve- ja, ja, ik ga al!",
+      "Paula- oh ja, je trein vertrekt over 10 minuten.",
+      "Steve- WAT?"
     };
 
     public Text textElement;
