@@ -47,12 +47,12 @@ public class scr_DynaText : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-      if (Input.GetTouch)
+      if (Input.GetKeyDown(KeyCode.Escape))
       {
           start = !start;
       }
 
-      if (Input.GetTouch)
+      if (Input.GetKeyDown(KeyCode.Escape))
       {
         if(l < txt[i].Length)
       	{
