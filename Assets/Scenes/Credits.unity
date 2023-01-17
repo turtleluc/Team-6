@@ -354,24 +354,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Developers
-
-
-    Luc Zuidema
-
-    Luca Uil
-
-    Eline Burger
-
-
-
-
-    Artist
-
-
-    Jesse
-
-    Daphne'
+  m_text: "Developers\n\nLuc \nZuidema\n\nLuca \nUil\n\nEline \nBurger\n\n\n\nArtist\n\nJesse
+    \nSlagter\n\nDaphne Hufenbach"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8cddc5658207a544d9c301a82b41184b, type: 2}
   m_sharedMaterial: {fileID: -6853165813726957340, guid: 8cddc5658207a544d9c301a82b41184b, type: 2}
