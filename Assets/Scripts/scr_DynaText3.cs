@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class scr_DynaText : MonoBehaviour
+public class scr_DynaText3 : MonoBehaviour
 {
     public bool start;
 
@@ -18,22 +18,15 @@ public class scr_DynaText : MonoBehaviour
     private int delay;
 
     private string[] txt = new string[]{
-      "Twee strepen licht vielen op steve's gezicht. Hij kneep zijn ogen verder dicht en draaide zich om, niet klaar om de dag te beginnen.",
-      "Hij had gister een nieuwe game gekocht en was tot midden in de nacht blijven spelen. Hij was daarna direct in bed gekropen zonder op te ruimen. nu lag zijn bureau nog vol met troep en ergens in een hoekje lagen zijn schoolboeken verstopt.",
-      "Paula: STEVE!!!",
-      "Paula stormde de kamer in.",
-      "Paula: lig je nog steeds in bed? Je komt zo te laat. Alwéér",
-      "Steve schrok wakker en keek naar zijn wekker",
-      "Steve: Huh?! Wat?! Oh nee, niet weer... ",
-      "Paula: Steve Goedhuis, je bent nu verdomd 18 jaar en ik moet je nog steeds uit je bed trommelen zodat je op tijd op school komt. Ga nou eens naar je leeftijd gedragen! ",
-      "Steve: ja, ja, ik ga al!",
-      "Steve viel uit bed, de vloer nog beladen met kleding van afgelopen week. Paula stampte boos zijn kamer uit.",
-      "Paula: Hmpf", 
-      "het zand nog uit zijn ogen wrijvend, pakte hij een schone broek en T-shirt en zijn spullen bij elkaar .",
-      "Paula: oh ja, je trein vertrekt over 10 minuten.",
-      "Steve: WAT?",
-      "Steve: EN DAT ZEG JE NU PAS!",
-      "Paula: Jup, love you.",
+      "Steve stapte Wackies binnen. Hij had een plan bedacht om aan het einde van de maand het geld bij elkaar te hebben.",
+      "Steve: Als je nog open diensten hebt geef ze dan maar aan mij! Ik heb meer tijd deze maand.",
+      "Mike trok een wenkbrauw op.",
+      "Mike: weet je dat zeker? Niet zo’n hele belangrijke afspraak zoals school?",
+      "Steve schudde zijn hoofd",
+      "steve: Ik heb eerder vrij omdat ons groepje al klaar is met het project.",
+      "Mike keek hem nog eens aan.",
+      "Mike: Als jij het zegt dan heb ik nog een shift open voor woensdag om…",
+      
     };
 
     public Text textElement;
@@ -47,7 +40,7 @@ public class scr_DynaText : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-      if (Input.GetMouseButtonDown(0))
+      if (Input.GetMouseButtonDown(0))      
       {
           start = !start;
       }

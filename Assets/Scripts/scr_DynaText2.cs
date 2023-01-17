@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class scr_DynaText : MonoBehaviour
+public class scr_DynaText2 : MonoBehaviour
 {
     public bool start;
 
@@ -18,22 +18,22 @@ public class scr_DynaText : MonoBehaviour
     private int delay;
 
     private string[] txt = new string[]{
-      "Twee strepen licht vielen op steve's gezicht. Hij kneep zijn ogen verder dicht en draaide zich om, niet klaar om de dag te beginnen.",
-      "Hij had gister een nieuwe game gekocht en was tot midden in de nacht blijven spelen. Hij was daarna direct in bed gekropen zonder op te ruimen. nu lag zijn bureau nog vol met troep en ergens in een hoekje lagen zijn schoolboeken verstopt.",
-      "Paula: STEVE!!!",
-      "Paula stormde de kamer in.",
-      "Paula: lig je nog steeds in bed? Je komt zo te laat. Alwéér",
-      "Steve schrok wakker en keek naar zijn wekker",
-      "Steve: Huh?! Wat?! Oh nee, niet weer... ",
-      "Paula: Steve Goedhuis, je bent nu verdomd 18 jaar en ik moet je nog steeds uit je bed trommelen zodat je op tijd op school komt. Ga nou eens naar je leeftijd gedragen! ",
-      "Steve: ja, ja, ik ga al!",
-      "Steve viel uit bed, de vloer nog beladen met kleding van afgelopen week. Paula stampte boos zijn kamer uit.",
-      "Paula: Hmpf", 
-      "het zand nog uit zijn ogen wrijvend, pakte hij een schone broek en T-shirt en zijn spullen bij elkaar .",
+      "Half buiten adem stapt Steve het schoool plein op. Zijn vrienden stonden wild naar hem te zwaaien.",
+      "Mak: Yo Steve! kom ff! Jeroen heeft een goed idee.",
+      "Jeroen: Ik dactht, laten we met z'n allen na dit semester een week op vakantie gaan…. Naar Spanje!",
+      "Steve; Spanje? Ik ga mee!",
+      "Jeroen: Maarrr, iedereen betaalt wel een deel mee natuurlijk. Sowieso de vliegticket, je eigen kamer en eten voor 3 dagen. De rest regel ik wel.",
+      "Jeroen keek even rond.",
+      "Jeroen: Dat is zo ongeveer 650 per persoon.",
+      "Davy: Klinkt redelijk… ",
+      "Mak: prima, stuur dan even een betaalverzoek in de groepsapp.",
+      "Steve moet even slikken",
+      "Steve: kak… Ik heb gister net mijn loon opgemaakt aan de nieuwe Lord of War game. En met de uren die ik werk heb ik niet genoeg. Ik mag dit niet missen.",
+      "Jeroen: Steve?",
+      "Steve: Hm? Oh ja klinkt goed, wanneer moet je het hebben?", 
+      "Jeroen: Voor Juli is goed, duurt nog even voor de zomervakantie.",
       "Paula: oh ja, je trein vertrekt over 10 minuten.",
-      "Steve: WAT?",
-      "Steve: EN DAT ZEG JE NU PAS!",
-      "Paula: Jup, love you.",
+      "Steve: Komt goed",
     };
 
     public Text textElement;
@@ -47,7 +47,7 @@ public class scr_DynaText : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-      if (Input.GetMouseButtonDown(0))
+      if (Input.GetMouseButtonDown(0))      
       {
           start = !start;
       }
