@@ -45,7 +45,7 @@ public class scr_DynaText3 : MonoBehaviour
           start = !start;
       }
 
-      if (Input.GetMouseButtonDown(0))
+      if (Input.GetMouseButtonUp(0))
       {
         if(l < txt[i].Length)
       	{

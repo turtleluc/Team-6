@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class scr_DynaText2 : MonoBehaviour
+public class scr_DynaText6 : MonoBehaviour
 {
     public bool start;
 
@@ -18,21 +18,18 @@ public class scr_DynaText2 : MonoBehaviour
     private int delay;
 
     private string[] txt = new string[]{
-      "Half buiten adem stapt Steve het schoool plein op. Zijn vrienden stonden wild naar hem te zwaaien.",
-      "Mak: Yo Steve! kom ff! Jeroen heeft een goed idee.",
-      "Jeroen: Ik dactht, laten we met z'n allen na dit semester een week op vakantie gaan…. Naar Spanje!",
-      "Steve; Spanje? Ik ga mee!",
-      "Jeroen: Maarrr, iedereen betaalt wel een deel mee natuurlijk. Sowieso de vliegticket, je eigen kamer en eten voor 3 dagen. De rest regel ik wel.",
-      "Jeroen keek even rond.",
-      "Jeroen: Dat is zo ongeveer 650 per persoon.",
-      "Davy: Klinkt redelijk… ",
-      "Mak: prima, stuur dan even een betaalverzoek in de groepsapp.",
-      "Steve moet even slikken",
-      "Steve: kak… Ik heb gister net mijn loon opgemaakt aan de nieuwe Lord of War game. En met de uren die ik werk heb ik niet genoeg. Ik mag dit niet missen.",
-      "Jeroen: Steve?",
-      "Steve: Hm? Oh ja klinkt goed, wanneer moet je het hebben?", 
-      "Jeroen: Voor Juli is goed, duurt nog even voor de zomervakantie.",
-      "Steve: Komt goed",
+      "De wekker ging af om 10 uur. Steve stond met moeite op en greep naar zijn telefoon om de wekker uit te zetten. ",
+      "Hij was door drie wekkers heen geslapen, maar dat kon hem niet meer schelen want op zijn scherm stond het lijstje van Mike.",
+      "Wat hij mee moest nemen waren: ID-kaart, Jaaropgave(n), Bankpas en Telefoon, maar die vergeet je toch niet ;)",
+      "Hij checkte snel zijn portemonnee. Zijn ID en bankpas zaten in hun vertrouwelijke vakje.",
+      "Steve: Check.",
+      "Steve ging achter zijn computer zitten. Een jaaropgave zou zo gepiept moeten zijn.",
+      "Na wat rondzoeken op Werknemersloket had hij het bestand gevonden en stuurde het door naar zijn printer.",
+      " Het oude ding ging gehoorzaam aan het werk. Tegelijkertijd kleedde Steve zich aan en pakte zijn tas. Toen hij terugkwam in zijn kamer lag de vloer onder het papier.",
+      "Steve: godsamme, moet dit weer?",
+      "Hij sloeg een diepe zucht, blijkbaar was hij vergeten het bakje uit te schuiven.",
+      "Wanneer Steve zijn jaaropgaves had opgepakt checkte hij het lijstje nog een keer. Toen hij tevreden was liep hij de deur uit naar school.",
+
     };
 
     public Text textElement;

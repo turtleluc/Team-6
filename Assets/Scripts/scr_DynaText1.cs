@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class scr_DynaText : MonoBehaviour
+public class scr_DynaText1 : MonoBehaviour
 {
     public bool start;
 
@@ -52,7 +52,7 @@ public class scr_DynaText : MonoBehaviour
           start = !start;
       }
 
-      if (Input.GetMouseButtonDown(0))
+      if (Input.GetMouseButtonUp(0))
       {
         if(l < txt[i].Length)
       	{
