@@ -19,14 +19,20 @@ public class scr_DynaText3 : MonoBehaviour
 
     private string[] txt = new string[]{
       "Steve stapte Wackies binnen. Hij had een plan bedacht om aan het einde van de maand het geld bij elkaar te hebben.",
-      "Steve: Als je nog open diensten hebt geef ze dan maar aan mij! Ik heb meer tijd deze maand.",
+      "Steve: ''Als je nog open diensten hebt geef ze dan maar aan mij! Ik heb meer tijd deze maand.''",
       "Mike trok een wenkbrauw op.",
-      "Mike: weet je dat zeker? Niet zo’n hele belangrijke afspraak zoals school?",
-      "Steve schudde zijn hoofd",
-      "steve: Ik heb eerder vrij omdat ons groepje al klaar is met het project.",
-      "Mike keek hem nog eens aan.",
-      "Mike: Als jij het zegt dan heb ik nog een shift open voor woensdag om…",
-      
+      "Mike: ''weet je dat zeker? Niet zo'n hele belangrijke afspraak zoals school?''",
+      "Steve: ''Ik heb eerder vrij omdat ons groepje al klaar is met het project.''",
+      "Mike: ''Als jij het zegt dan heb ik nog een shift open voor woensdag om…''",
+      "_",
+      "Steve stond in de keuken. In gedachten verzonken draaide hij twee burgers om.",
+      "Hij had vijf diensten overgenomen en twee verlengd.",
+      "Nu moest hij voor 6 uur opstaan en de laatste 2 uren spijbelen, maar hij had het ervoor over. Anders hoorde hij er niet bij als hij als enige niet mee ging.", 
+      "Stel je voor dat ze leuke dingen gingen doen!",
+      "En wanneer ze weer terug zijn gaan ze geheid alleen maar praten over hoe leuk Spanje nou was terwijl Steve er maar een beetje awkward bij moet lachen. Gaat nooit gebeuren!",
+      "Hij draaide de burgers om en legde een broodje open.", "'Ik zal ze laten zien dat ik 650 euro in mijn eentje kan betalen!'",
+      "Vast beraden maakte hij het broodje af en gooide patat in de frituur.", 
+      "Steve: ''Dit gaat allemaal goed komen…''",
     };
 
     public Text textElement;

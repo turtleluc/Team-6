@@ -18,21 +18,20 @@ public class scr_DynaText2 : MonoBehaviour
     private int delay;
 
     private string[] txt = new string[]{
-      "Half buiten adem stapt Steve het schoool plein op. Zijn vrienden stonden wild naar hem te zwaaien.",
-      "Mak: Yo Steve! kom ff! Jeroen heeft een goed idee.",
-      "Jeroen: Ik dactht, laten we met z'n allen na dit semester een week op vakantie gaan…. Naar Spanje!",
-      "Steve; Spanje? Ik ga mee!",
-      "Jeroen: Maarrr, iedereen betaalt wel een deel mee natuurlijk. Sowieso de vliegticket, je eigen kamer en eten voor 3 dagen. De rest regel ik wel.",
-      "Jeroen keek even rond.",
-      "Jeroen: Dat is zo ongeveer 650 per persoon.",
-      "Davy: Klinkt redelijk… ",
-      "Mak: prima, stuur dan even een betaalverzoek in de groepsapp.",
-      "Steve moet even slikken",
-      "Steve: kak… Ik heb gister net mijn loon opgemaakt aan de nieuwe Lord of War game. En met de uren die ik werk heb ik niet genoeg. Ik mag dit niet missen.",
-      "Jeroen: Steve?",
-      "Steve: Hm? Oh ja klinkt goed, wanneer moet je het hebben?", 
-      "Jeroen: Voor Juli is goed, duurt nog even voor de zomervakantie.",
-      "Steve: Komt goed",
+      "Half buiten adem stapt Steve het school plein op. Zijn vrienden stonden wild naar hem te zwaaien.",
+      "Mak: ''Yo Steve! kom ff! Jeroen heeft een goed idee.''",
+      "Jeroen:'' Ik dacht, laten we met z'n allen na dit semester een week op vakantie gaan... Naar Spanje!''",
+      "Steve: ''Spanje? Ik ga mee!''",
+      "Jeroen: ''Maarrr, iedereen betaalt wel een deel mee natuurlijk. Sowieso de vliegticket, je eigen kamer en eten voor 3 dagen. De rest regel ik wel.''",
+      "Jeroen: ''Dat is zo ongeveer 650 euro per persoon.''",
+      "Davy: ''Klinkt redelijk… ''",
+      "Mak: ''prima, stuur dan even een betaalverzoek in de groepsapp.''",
+      "Steve moest even slikken",
+      "Hij had gister net zijn loon opgemaakt aan de nieuwe Lord of War game. En met de uren die hij werkt heeft hij niet genoeg.","Hij mag dit niet missen.",
+      "Jeroen: ''Steve?''",
+      "Steve: ''Hm? Oh ja klinkt goed, wanneer moet je het hebben?''", 
+      "Jeroen: ''Voor Juli is goed, duurt nog even voor de zomervakantie.''",
+      "Steve: ''Komt goed''",
     };
 
     public Text textElement;
@@ -77,7 +76,7 @@ public class scr_DynaText2 : MonoBehaviour
       }
 
       j = 0;
-      delay = 5;
+      delay = 10;
 
       if(t >= delay)
       {

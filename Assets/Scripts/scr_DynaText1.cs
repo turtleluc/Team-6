@@ -20,20 +20,21 @@ public class scr_DynaText1 : MonoBehaviour
     private string[] txt = new string[]{
       "Twee strepen licht vielen op steve's gezicht. Hij kneep zijn ogen verder dicht en draaide zich om, niet klaar om de dag te beginnen.",
       "Hij had gister een nieuwe game gekocht en was tot midden in de nacht blijven spelen. Hij was daarna direct in bed gekropen zonder op te ruimen. nu lag zijn bureau nog vol met troep en ergens in een hoekje lagen zijn schoolboeken verstopt.",
-      "Paula: STEVE!!!",
+      "Paula: ''STEVE!!!''",
       "Paula stormde de kamer in.",
-      "Paula: lig je nog steeds in bed? Je komt zo te laat. Alwéér",
+      "Paula: ''lig je nog steeds in bed? Je komt zo te laat. Alwéér''",
       "Steve schrok wakker en keek naar zijn wekker",
-      "Steve: Huh?! Wat?! Oh nee, niet weer... ",
-      "Paula: Steve Goedhuis, je bent nu verdomd 18 jaar en ik moet je nog steeds uit je bed trommelen zodat je op tijd op school komt. Ga nou eens naar je leeftijd gedragen! ",
-      "Steve: ja, ja, ik ga al!",
+      "Steve: ''Huh?! Wat?! Oh nee, niet weer...'' ",
+      "Paula: ''Steve Goedhuis, je bent nu verdomd 18 jaar en ik moet je nog steeds uit je bed trommelen zodat je op tijd op school komt. Ga nou eens naar je leeftijd gedragen!'' ",
+      "Steve: ''ja, ja, ik ga al!''",
       "Steve viel uit bed, de vloer nog beladen met kleding van afgelopen week. Paula stampte boos zijn kamer uit.",
-      "Paula: Hmpf", 
+      "Paula: ''Hmpf''", 
       "het zand nog uit zijn ogen wrijvend, pakte hij een schone broek en T-shirt en zijn spullen bij elkaar .",
-      "Paula: oh ja, je trein vertrekt over 10 minuten.",
-      "Steve: WAT?",
-      "Steve: EN DAT ZEG JE NU PAS!",
-      "Paula: Jup, love you.",
+      "Paula: ''oh ja, je trein vertrekt over 10 minuten.''",
+      "Steve: ''WAT?''",
+      "Steve: ''EN DAT ZEG JE NU PAS!''",
+      "Paula: ''Jup, love you.''",
+      "Klik op ''volgende''",
     };
 
     public Text textElement;
@@ -78,7 +79,7 @@ public class scr_DynaText1 : MonoBehaviour
       }
 
       j = 0;
-      delay = 5;
+      delay = 10;
 
       if(t >= delay)
       {
