@@ -2,27 +2,26 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Stevep : MonoBehaviour
+public class emotie : MonoBehaviour
 {
   public Sprite emotie1;
   public Sprite emotie2;
   public Sprite emotie3;
    
-    void Update()
-    {
-         if (Input.GetMouseButton(0))
+      public void emotieknop1()
       {
-        this.gameObject.GetComponent<SpriteRenderer>().sprite =emotie1;
+      this.gameObject.GetComponent<SpriteRenderer>().sprite =emotie1;
       }
 
-      if (Input.GetMouseButton(2))
+
+      public void emotieknop2()
       {
         this.gameObject.GetComponent<SpriteRenderer>().sprite =emotie2;
       }
 
-      if (Input.GetMouseButton(1))
+      public void emotieknop3()
       {
         this.gameObject.GetComponent<SpriteRenderer>().sprite =emotie3;
       }
-    }
+    
 }
