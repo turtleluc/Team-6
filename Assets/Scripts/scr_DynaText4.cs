@@ -23,18 +23,14 @@ public class scr_DynaText4 : MonoBehaviour
       "Dag 8 Steve: Zo moe, maar nog twee uurtjes dan ben ik vrij.", 
       "Dag 14 Steve: Nog drie uur...",
       
-      "Steve staarde levenloos voor zich uit. Met zijn rechterhand duwde hij afwezig tegen een hamburger die er al minstens een uur lag te verpieteren.",
-      "Mike kwam de keuken binnen lopen met drie bonnetjes in zijn handen.",
+     
       "Mike: ''2 patat middel, een bak kipnuggets en een hamburger double jerky Steve.''",
-      "Mike liep naar de frituur en gooide wat patatjes in een bak.",
+
       "Mike: ''Steve?''",
-      "Mike draaide zich om naar Steve die nog steeds voor zich uit staarde. De burgers voor hem waren pikzwart geworden.",
       "Mike: ''Hey Steve.''",
       "Mike knipte zijn vingers voor Steves ogen.",
       "Steve: ''Huh wat? Oh.''",
-      "Mike zette het fornuis uit en schoof de burgers de prullenbak in",
       "Mike: ''Gaat het wel jongen? Je bent spierwit Kom.''",
-      "Hij nam Steve mee naar zijn kantoor.",
 
     };
 
