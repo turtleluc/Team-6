@@ -18,18 +18,9 @@ public class scr_DynaText6 : MonoBehaviour
     private int delay;
 
     private string[] txt = new string[]{
-      "De wekker ging af om 10 uur. Steve stond met moeite op en greep naar zijn telefoon om de wekker uit te zetten. ",
-      "Hij was door drie wekkers heen geslapen, maar dat kon hem niet meer schelen want op zijn scherm stond het lijstje van Mike.",
-      "Wat hij mee moest nemen waren: ID-kaart, Jaaropgave(n), Bankpas en Telefoon, maar die vergeet je toch niet ;)",
-      "Hij checkte snel zijn portemonnee. Zijn ID en bankpas zaten in hun vertrouwelijke vakje.",
       "Steve: Check.",
-      "Steve ging achter zijn computer zitten. Een jaaropgave zou zo gepiept moeten zijn.",
-      "Na wat rondzoeken op Werknemersloket had hij het bestand gevonden en stuurde het door naar zijn printer.",
-      " Het oude ding ging gehoorzaam aan het werk. Tegelijkertijd kleedde Steve zich aan en pakte zijn tas. Toen hij terugkwam in zijn kamer lag de vloer onder het papier.",
-      "Steve: godsamme, moet dit weer?",
-      "Hij sloeg een diepe zucht, blijkbaar was hij vergeten het bakje uit te schuiven.",
-      "Wanneer Steve zijn jaaropgaves had opgepakt checkte hij het lijstje nog een keer. Toen hij tevreden was liep hij de deur uit naar school.",
-
+       "Steve: godsamme, moet dit weer?",
+      
     };
 
     public Text textElement;

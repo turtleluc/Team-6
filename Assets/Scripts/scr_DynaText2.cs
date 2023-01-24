@@ -18,7 +18,6 @@ public class scr_DynaText2 : MonoBehaviour
     private int delay;
 
     private string[] txt = new string[]{
-      "Half buiten adem stapt Steve het school plein op. Zijn vrienden stonden wild naar hem te zwaaien.",
       "Mak: ''Yo Steve! kom ff! Jeroen heeft een goed idee.''",
       "Jeroen:'' Ik dacht, laten we met z'n allen na dit semester een week op vakantie gaan... Naar Spanje!''",
       "Steve: ''Spanje? Ik ga mee!''",
@@ -27,7 +26,6 @@ public class scr_DynaText2 : MonoBehaviour
       "Davy: ''Klinkt redelijk… ''",
       "Mak: ''prima, stuur dan even een betaalverzoek in de groepsapp.''",
       "Steve moest even slikken",
-      "Hij had gister net zijn loon opgemaakt aan de nieuwe Lord of War game. En met de uren die hij werkt heeft hij niet genoeg.","Hij mag dit niet missen.",
       "Jeroen: ''Steve?''",
       "Steve: ''Hm? Oh ja klinkt goed, wanneer moet je het hebben?''", 
       "Jeroen: ''Voor Juli is goed, duurt nog even voor de zomervakantie.''",
