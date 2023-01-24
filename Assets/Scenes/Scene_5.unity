@@ -709,9 +709,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 536b0d6105469784daf4dd21bab71e37, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Steve1: {fileID: 21300000, guid: e9af9cc7527aa7c40b762a6e284c3b55, type: 3}
-  Steve2: {fileID: 21300000, guid: 9967403773416104499efacf6f19f43a, type: 3}
-  Steve3: {fileID: 21300000, guid: cca1889a48c8dc7418f965f3d6f07bb6, type: 3}
+  emotie1: {fileID: 21300000, guid: 9967403773416104499efacf6f19f43a, type: 3}
+  emotie2: {fileID: 21300000, guid: e9af9cc7527aa7c40b762a6e284c3b55, type: 3}
+  emotie3: {fileID: 21300000, guid: cca1889a48c8dc7418f965f3d6f07bb6, type: 3}
 --- !u!1 &1785077238
 GameObject:
   m_ObjectHideFlags: 0
