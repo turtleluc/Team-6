@@ -1,8 +1,8 @@
-"Mike: Hier.",
+Hier.#speaker:MIke # 
 Vertel, wat is er aan de hand. Je werkt de laatste tijd ongelofelijk veel en lang, waarom is dat?#speaker:Mike
 Je gaat in ieder geval niet meer de vloer op vandaag, dat kan ik je verzekeren.#speaker:Mike
-Ik uhm, uhm...#speaker:Steve
-Mijn vrienden wouden op vakantie met de groep en ik zei dat ik meeging… maar ik heb niet genoeg geld enneh… om dus mee te kunnen moet ik ergens geld vandaan halen…#speak:Steve
+Ik uhm, uhm...#speaker:Steve #portrait:steve_werk_nervous
+Mijn vrienden wouden op vakantie met de groep en ik zei dat ik meeging… maar ik heb niet genoeg geld enneh… om dus mee te kunnen moet ik ergens geld vandaan halen…#speak:Steve #portrait:steve_werk_praatbang
 Dus ga je spijbelen om toch maar wat meer te kunnen werken. Je had je ouders toch ook kunnen vragen om wat geld bij te leggen?#speaker:Mike
 Ik wil die vakantie helemaal zelf kunnen betalen.#speaker:Steve 
 Jongen dit ga je niet vol houden. Je school en werk gaan keihard achteruit.#speaker:Mike

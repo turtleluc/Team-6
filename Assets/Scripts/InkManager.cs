@@ -11,6 +11,10 @@ public class InkManager : MonoBehaviour
   [SerializeField]
   private Text _textField;
 
+ 
+
+
+
   void Start()
   {
     StartStory();
@@ -20,6 +24,11 @@ public class InkManager : MonoBehaviour
   {
     _story = new Story(_inkJsonAsset.text);
     DisplayNextLine();
+    _story.BindExternalFunction("ShowCharacter", (string name, string position, string mood) 
+    => Debug.Log($"Show character called. {name}, {position}, {mood}"));
+
+    _story.BindExternalFunction("HideCharacter", (string name) 
+        => Debug.Log($"Hide character called. {name}"));
   }
   
   public void DisplayNextLine()
@@ -29,5 +38,6 @@ public class InkManager : MonoBehaviour
     string text = _story.Continue(); // gets next line
     text = text?.Trim(); // removes white space from text
     _textField.text = text; // displays new text
+   
   }
 }
