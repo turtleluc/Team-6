@@ -172,7 +172,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1030910516150117233, guid: ce5d8e80f7160ce4da1847fd95d3a6f3, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 208
+      value: 191
+      objectReference: {fileID: 0}
+    - target: {fileID: 1030910516150117233, guid: ce5d8e80f7160ce4da1847fd95d3a6f3, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.0000023842
       objectReference: {fileID: 0}
     - target: {fileID: 1749017592636104448, guid: ce5d8e80f7160ce4da1847fd95d3a6f3, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -1515,6 +1519,10 @@ PrefabInstance:
       propertyPath: _textField
       value: 
       objectReference: {fileID: 18908962}
+    - target: {fileID: 2929388561337897521, guid: 12c5c086bf17b3a48869f6ecfafdc270, type: 3}
+      propertyPath: _inkJsonAsset
+      value: 
+      objectReference: {fileID: 4900000, guid: 0c722b4263b8f6240b4a9d15b840bcd8, type: 3}
     - target: {fileID: 2929388561337897522, guid: 12c5c086bf17b3a48869f6ecfafdc270, type: 3}
       propertyPath: m_RootOrder
       value: 8
