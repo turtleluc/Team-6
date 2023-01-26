@@ -77,13 +77,13 @@ private void SetAnimationValues()
       break;
   }
 
-  public void ChangeMood(Mood mood)
+  private void ChangeMood(Mood mood)
 {
   Mood = mood;
   UpdateSprite();
 }
 
-private void UpdateSprite()
+public void UpdateSprite()
 {
   var sprite = _moods.GetMoodSprite(Mood);
   var image = GetComponent<Image>();
