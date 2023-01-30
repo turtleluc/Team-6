@@ -1,12 +1,12 @@
-using System.Collections;
+using System;
 using System.Collections.Generic;
-using UnityEngine;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-public class CharacterEnums : MonoBehaviour
+namespace Assets.Scripts
 {
-    public enum CharacterName { Steve, Mike, mom };
-
-public enum CharacterPosition { Center, Left, Right };
-
-public enum CharacterMood { Fine, Happy, Sad, SadHappy, Upset, Blush, Crying, Serious, Surprised, Uncomfortable };
+    public enum CharacterName { Alice, Player };
+    public enum CharacterPosition { Center, Left, Right };
+    public enum CharacterMood { Fine, Happy, Sad, SadHappy, Upset, Blush, Crying, Serious, Surprised, Uncomfortable };
 }
