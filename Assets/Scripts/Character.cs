@@ -1,120 +1,87 @@
+using Assets.Scripts;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Character : MonoBehaviour
 {
     public CharacterPosition Position { get; private set; }
+    public CharacterName Name { get; private set; }
+    public CharacterMood Mood { get; private set; }
+    public bool IsShowing { get; private set; }
 
-  public CharacterName Name { get; private set; }
+    private CharacterMoods _moods;
 
-  public CharacterMood Mood { get; private set; }
+    private float _offScreenX;
+    private float _onScreenX;
 
-  public bool IsShowing { get; private set; }
+    private readonly float _animationSpeed = 0.5f;
 
-  private CharacterMoods _moods;
+    public void Init(CharacterName name, CharacterPosition position, CharacterMood mood, CharacterMoods moods)
+    {
+        Name = name;
+        Position = position;
+        Mood = mood;
 
-  private float _offScreenX;
+        _moods = moods;
 
-  private float _onScreenX;
+        Show();
+    }
 
-  private readonly float _animationSpeed = 0.5f;
+    public void Show()
+    {
+        SetAnimationValues();
 
-  public void Init(CharacterName name, CharacterPosition position, CharacterMoods mood, CharacterMoods moods)
-  {
-    Name = name;
-    Position = position;
-    Mood = mood;
+        // Position outside of the screen
+        transform.position = new Vector3(_offScreenX, transform.position.y, transform.localPosition.z);
 
-    _moods = moods;
+        UpdateSprite();
 
-    Show();
-  }
+        LeanTween.moveX(gameObject, _onScreenX, _animationSpeed).setEase(LeanTweenType.linear).setOnComplete(() =>
+        {
+            IsShowing = true;
+        });
+    }
+    public void Hide()
+    {
+        LeanTween.moveX(gameObject, _offScreenX, _animationSpeed).setEase(LeanTweenType.linear).setOnComplete(() =>
+        {
+            IsShowing = false;
+        });
+    }
 
-  public void Show()
-{
+    public void ChangeMood(CharacterMood mood)
+    {
+        Mood = mood;
+        UpdateSprite();
+    }
 
-  SetAnimationValues();
+    private void UpdateSprite()
+    {
+        var sprite = _moods.GetMoodSprite(Mood);
+        var image = GetComponent<Image>();
 
-  // Position outside of the screen
-  transform.position = new Vector3(_offScreenX, transform.position.y, transform.localPosition.z);
-
-  // Set correct mood sprite
-  UpdateSprite();
-
-  LeanTween.moveX(gameObject, _onScreenX, _animationSpeed).setEase(LeanTweenType.linear).setOnComplete(() =>
-  {
-    IsShowing = true;
-  });
-}
-
-public void Hide()
-{
-
-  LeanTween.moveX(gameObject, _offScreenX, _animationSpeed).setEase(LeanTweenType.linear).setOnComplete(() =>
-  {
-    IsShowing = false;
-  });
-}
-
-private void SetAnimationValues()
-{
-  switch (Position)
-  {
-    case CharacterPosition.Left:
-      _onScreenX = Screen.width * 0.25f;
-      _offScreenX = -Screen.width * 0.25f;
-      break;
-      
-    case CharacterPosition.Center:
-      _onScreenX = Screen.width * 0.5f;
-      _offScreenX = -Screen.width * 0.25f;
-      break;
-
-    case CharacterPosition.Right:
-      _onScreenX = Screen.width * 0.75f;
-      _offScreenX = Screen.width * 1.25f;
-      break;
-  }
-
-  private void ChangeMood(Mood mood)
-{
-  Mood = mood;
-  UpdateSprite();
-}
-
-public void UpdateSprite()
-{
-  var sprite = _moods.GetMoodSprite(Mood);
-  var image = GetComponent<Image>();
-
-  image.sprite = sprite;
-  image.preserveAspect = true;
-}
-}
-
-public void ShowCharacter(string name, string position, string mood)
-{
-  if (!Enum.TryParse(name, out CharacterName nameEnum))
-  {
-    Debug.LogWarning($"Failed to parse character name to enum: {name}");
-    return;
-  }
-
-  if (!Enum.TryParse(position, out CharacterPosition positionEnum))
-  {
-    Debug.LogWarning($"Failed to parse character position to enum: {position}");
-    return;
-  }
-
-  if (!Enum.TryParse(mood, out CharacterMood moodEnum))
-  {
-    Debug.LogWarning($"Failed to parse character mood to enum: {mood}");
-    return;
-  }
-
-  ShowCharacter(nameEnum, positionEnum, moodEnum);
-
-}
-
+        image.sprite = sprite;
+        image.preserveAspect = true;
+    }
+    
+    private void SetAnimationValues()
+    {
+        switch (Position)
+        {
+            case CharacterPosition.Left:
+                _onScreenX = Screen.width * 0.25f;
+                _offScreenX = -Screen.width * 0.25f;
+                break;
+            case CharacterPosition.Center:
+                _onScreenX = Screen.width * 0.5f;
+                _offScreenX = -Screen.width * 0.25f;
+                break;
+            case CharacterPosition.Right:
+                _onScreenX = Screen.width * 0.75f;
+                _offScreenX = Screen.width * 1.25f;
+                break;
+        }
+    }
 }
