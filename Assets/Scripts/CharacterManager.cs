@@ -14,9 +14,15 @@ public class CharacterManager : MonoBehaviour
     private GameObject _characterPrefab;
 
     [SerializeField]
-    private CharacterMoods _aliceMoods;
+    private CharacterMoods _steveMoods;
     [SerializeField]
-    private CharacterMoods _playerMoods;
+    private CharacterMoods _mikeMoods;
+    [SerializeField]
+    private CharacterMoods _paulaMoods;
+    [SerializeField]
+    private CharacterMoods _makMoods;
+    [SerializeField]
+    private CharacterMoods _jeroenMoods;
 
     private void Start()
     {
@@ -127,13 +133,19 @@ public class CharacterManager : MonoBehaviour
     {
         switch (name)
         {
-            case CharacterName.Alice:
-                return _aliceMoods;
-            case CharacterName.Player:
-                return _playerMoods;
+            case CharacterName.Steve:
+            return _steveMoods;
+            case CharacterName.Paula:
+            return _paulaMoods;
+            case CharacterName.Mike:
+            return _mikeMoods;
+            case CharacterName.Jeroen:
+            return _jeroenMoods;
             default:
-                Debug.LogError($"Could not find moodset for {name}");
-                return null;
+            case CharacterName.Mak:
+            return _makMoods;
+            Debug.LogError($"Could not find moodset for {name}");
+            return null;
         }
     }
 }
