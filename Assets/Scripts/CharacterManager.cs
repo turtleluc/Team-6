@@ -24,10 +24,16 @@ public class CharacterManager : MonoBehaviour
     [SerializeField]
     private CharacterMoods _jeroenMoods;
 
+    private static List<UnityEditor.U2D.Animation.CharacterData> _loadedCharacters;
+
     private void Start()
     {
         _characters = new List<Character>();
+
+       
     }
+
+    
 
     public void ShowCharacter(string name, string position, string mood)
     {
@@ -55,8 +61,8 @@ public class CharacterManager : MonoBehaviour
     public void ShowCharacter(CharacterName name, CharacterPosition position, CharacterMood mood)
     {
         var character = _characters.FirstOrDefault(x => x.Name == name);
-        
-        if (character == null)
+
+        if (character = null)
         {
             var characterObject = Instantiate(_characterPrefab, gameObject.transform, false);
             character = characterObject.GetComponent<Character>();
@@ -135,17 +141,25 @@ public class CharacterManager : MonoBehaviour
         {
             case CharacterName.Steve:
             return _steveMoods;
+            
             case CharacterName.Paula:
             return _paulaMoods;
+            
             case CharacterName.Mike:
             return _mikeMoods;
+            
             case CharacterName.Jeroen:
             return _jeroenMoods;
-            default:
+            
+            
             case CharacterName.Mak:
             return _makMoods;
+            
+            default:
             Debug.LogError($"Could not find moodset for {name}");
             return null;
         }
     }
+
+
 }

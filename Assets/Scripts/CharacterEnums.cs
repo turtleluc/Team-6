@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Assets.Scripts
 {
-    public enum CharacterName { Steve, Mike, Jeroen, Mak, Paula};
+    public enum CharacterName { Steve, Paula, Mike, Jeroen, Mak };
     public enum CharacterPosition { Center, Left, Right };
     public enum CharacterMood { Normaal, Blij, Bang, Verdrietig, Verrast, Ongemakkelijk, Boos, Praat1, Praat2 };
 }
