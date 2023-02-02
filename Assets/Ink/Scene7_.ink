@@ -1,3 +1,12 @@
+EXTERNAL ShowCharacter(characterName, position, mood) 
+EXTERNAL HideCharacter(characterName)
+EXTERNAL ChangeMood(characterName, mood)
+
+VAR relationship_strength = 80
+VAR mental_health = 50
+
+VAR know_about_food_issue = false
+
 
 Nou ben ik weer, frituur stond weer eens te hoog. #speaker Mike
 Had je m’n berichtje nog gelezen? #speaker Mike

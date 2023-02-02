@@ -1,3 +1,12 @@
+EXTERNAL ShowCharacter(characterName, position, mood) 
+EXTERNAL HideCharacter(characterName)
+EXTERNAL ChangeMood(characterName, mood)
+
+VAR relationship_strength = 80
+VAR mental_health = 50
+
+VAR know_about_food_issue = false
+
 Hier.#speaker:MIke # 
 Vertel, wat is er aan de hand. Je werkt de laatste tijd ongelofelijk veel en lang, waarom is dat?#speaker:Mike
 Je gaat in ieder geval niet meer de vloer op vandaag, dat kan ik je verzekeren.#speaker:Mike

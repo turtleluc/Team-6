@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -14,26 +14,14 @@ public class CharacterManager : MonoBehaviour
     private GameObject _characterPrefab;
 
     [SerializeField]
-    private CharacterMoods _steveMoods;
+    private CharacterMoods _aliceMoods;
     [SerializeField]
-    private CharacterMoods _mikeMoods;
-    [SerializeField]
-    private CharacterMoods _paulaMoods;
-    [SerializeField]
-    private CharacterMoods _makMoods;
-    [SerializeField]
-    private CharacterMoods _jeroenMoods;
-
-    private static List<UnityEditor.U2D.Animation.CharacterData> _loadedCharacters;
+    private CharacterMoods _playerMoods;
 
     private void Start()
     {
         _characters = new List<Character>();
-
-       
     }
-
-    
 
     public void ShowCharacter(string name, string position, string mood)
     {
@@ -61,8 +49,8 @@ public class CharacterManager : MonoBehaviour
     public void ShowCharacter(CharacterName name, CharacterPosition position, CharacterMood mood)
     {
         var character = _characters.FirstOrDefault(x => x.Name == name);
-
-        if (character = null)
+        
+        if (character == null)
         {
             var characterObject = Instantiate(_characterPrefab, gameObject.transform, false);
             character = characterObject.GetComponent<Character>();
@@ -139,27 +127,13 @@ public class CharacterManager : MonoBehaviour
     {
         switch (name)
         {
-            case CharacterName.Steve:
-            return _steveMoods;
-            
-            case CharacterName.Paula:
-            return _paulaMoods;
-            
-            case CharacterName.Mike:
-            return _mikeMoods;
-            
-            case CharacterName.Jeroen:
-            return _jeroenMoods;
-            
-            
-            case CharacterName.Mak:
-            return _makMoods;
-            
+            case CharacterName.Alice:
+                return _aliceMoods;
+            case CharacterName.Player:
+                return _playerMoods;
             default:
-            Debug.LogError($"Could not find moodset for {name}");
-            return null;
+                Debug.LogError($"Could not find moodset for {name}");
+                return null;
         }
     }
-
-
 }
