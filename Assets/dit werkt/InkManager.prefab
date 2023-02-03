@@ -44,9 +44,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84f39cab781d3ab49a09ebafa9e9170b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _inkJsonAsset: {fileID: 4900000, guid: f295780e915835640acb3cf59e416872, type: 3}
+  _inkJsonAsset: {fileID: 0}
   _textField: {fileID: 0}
   _choiceButtonContainer: {fileID: 0}
-  _choiceButtonPrefab: {fileID: 1960231904013347824, guid: 575e14d2608962c4e8be742489692e65, type: 3}
+  _choiceButtonPrefab: {fileID: 0}
   _normalTextColor: {r: 0, g: 0, b: 0, a: 0}
   _thoughtTextColor: {r: 0, g: 0, b: 0, a: 0}
