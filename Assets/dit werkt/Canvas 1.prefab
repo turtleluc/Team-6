@@ -168,6 +168,7 @@ GameObject:
   - component: {fileID: 6811228074619147946}
   - component: {fileID: 6811228074619147949}
   - component: {fileID: 6811228074619147948}
+  - component: {fileID: 2247566504761595367}
   m_Layer: 5
   m_Name: Characters
   m_TagString: Untagged
@@ -210,6 +211,7 @@ MonoBehaviour:
   _characterPrefab: {fileID: 4447727259480907734, guid: 1906f506f502fb74d9d9522e2883f86b, type: 3}
   _aliceMoods: {fileID: 6811228074619147949}
   _playerMoods: {fileID: 6811228074619147948}
+  _friendMoods: {fileID: 6811228074619147949}
 --- !u!114 &6811228074619147949
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -244,6 +246,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Name: 1
+  Fine: {fileID: 0}
+  Sad: {fileID: 0}
+  SadHappy: {fileID: 0}
+  Upset: {fileID: 0}
+  Serious: {fileID: 0}
+  Surprised: {fileID: 0}
+  Crying: {fileID: 0}
+  Uncomfortable: {fileID: 0}
+--- !u!114 &2247566504761595367
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6811228074619147950}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ba5dea79b8f6a044a095342e759f1dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: 2
   Fine: {fileID: 0}
   Sad: {fileID: 0}
   SadHappy: {fileID: 0}

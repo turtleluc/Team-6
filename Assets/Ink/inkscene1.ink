@@ -25,4 +25,6 @@ Steve: Huh?! Wat?! Oh nee, niet weer...
       EN DAT ZEG JE NU PAS!
        {ChangeMood("Alice", "Fine")}
       Paula: Jup, love you.
+      {HideCharacter("Alice")}    
+      {HideCharacter("Player")}
     -> DONE
