@@ -7,9 +7,9 @@ VAR mental_health = 50
 
 VAR know_about_food_issue = false
 
-{ShowCharacter("Steve", "Left", "Normaal")}
+{ShowCharacter("Player", "Left", "Fine")}
 Steve: Check. 
-{ChangeMood("Steve", "Praat1")}
+{ChangeMood("Player", "Surprised")}
 Steve: godsamme, moet dit weer? 
-
+{HideCharacter("Player")}
     -> DONE
