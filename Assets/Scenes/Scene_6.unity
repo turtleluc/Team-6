@@ -269,7 +269,7 @@ PrefabInstance:
     - target: {fileID: 8425689035029107645, guid: d6f6ef1b3b6fc6445a3268a348e111bf, type: 3}
       propertyPath: _inkJsonAsset
       value: 
-      objectReference: {fileID: 4900000, guid: a9e357950bd2c09498884141c4c4d032, type: 3}
+      objectReference: {fileID: 4900000, guid: fde438d5d8f5a1746919887dcdaabb38, type: 3}
     - target: {fileID: 8425689035029107645, guid: d6f6ef1b3b6fc6445a3268a348e111bf, type: 3}
       propertyPath: _choiceButtonPrefab
       value: 
@@ -385,7 +385,7 @@ PrefabInstance:
     - target: {fileID: 6811228074619147948, guid: 19e284a12ef649a459ca9b1154cce020, type: 3}
       propertyPath: Fine
       value: 
-      objectReference: {fileID: 21300000, guid: b51fcfe3984268c42b95528beaa9cc2c, type: 3}
+      objectReference: {fileID: 21300000, guid: 2267067aac285dd41b10203c9428f6aa, type: 3}
     - target: {fileID: 6811228074619147948, guid: 19e284a12ef649a459ca9b1154cce020, type: 3}
       propertyPath: Upset
       value: 
@@ -393,19 +393,19 @@ PrefabInstance:
     - target: {fileID: 6811228074619147948, guid: 19e284a12ef649a459ca9b1154cce020, type: 3}
       propertyPath: Surprised
       value: 
-      objectReference: {fileID: 21300000, guid: f32013d34b3472141b8cd57260571f99, type: 3}
+      objectReference: {fileID: 21300000, guid: f79f2f65ad177ef4688b303eae920104, type: 3}
     - target: {fileID: 6811228074619147949, guid: 19e284a12ef649a459ca9b1154cce020, type: 3}
       propertyPath: Sad
       value: 
-      objectReference: {fileID: 21300000, guid: 8e647cd251221484298e258077bad186, type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 6811228074619147949, guid: 19e284a12ef649a459ca9b1154cce020, type: 3}
       propertyPath: Fine
       value: 
-      objectReference: {fileID: 21300000, guid: 3fa234e934a4259428b9e02dcf3a21ee, type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 6811228074619147949, guid: 19e284a12ef649a459ca9b1154cce020, type: 3}
       propertyPath: Upset
       value: 
-      objectReference: {fileID: 21300000, guid: 9dfff614d94f1ba4f9a3af65b5c32a88, type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 6811228074619147949, guid: 19e284a12ef649a459ca9b1154cce020, type: 3}
       propertyPath: Surprised
       value: 
