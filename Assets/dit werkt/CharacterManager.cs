@@ -17,7 +17,8 @@ public class CharacterManager : MonoBehaviour
     private CharacterMoods _aliceMoods;
     [SerializeField]
     private CharacterMoods _playerMoods;
-  
+    [SerializeField]
+    private CharacterMoods _friendMoods;
 
     private void Start()
     {
@@ -132,7 +133,8 @@ public class CharacterManager : MonoBehaviour
                 return _aliceMoods;
             case CharacterName.Player:
                 return _playerMoods;
-          
+            case CharacterName.Friend:
+                return _friendMoods;
             default:
                 Debug.LogError($"Could not find moodset for {name}");
                 return null;

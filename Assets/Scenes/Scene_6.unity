@@ -201,7 +201,7 @@ Transform:
   m_GameObject: {fileID: 245745503}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.923136, y: 1, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -414,10 +414,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Canvas 1
       objectReference: {fileID: 0}
-    - target: {fileID: 6811228075844665924, guid: 19e284a12ef649a459ca9b1154cce020, type: 3}
-      propertyPath: m_AdditionalShaderChannelsFlag
-      value: 25
-      objectReference: {fileID: 0}
     - target: {fileID: 6811228075844665925, guid: 19e284a12ef649a459ca9b1154cce020, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -594,10 +590,6 @@ PrefabInstance:
     - target: {fileID: 1567458299922793618, guid: fa432b25d468a074ba60581e499fd7c2, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1567458299922793619, guid: fa432b25d468a074ba60581e499fd7c2, type: 3}
-      propertyPath: m_AdditionalShaderChannelsFlag
-      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 1567458299922793710, guid: fa432b25d468a074ba60581e499fd7c2, type: 3}
       propertyPath: m_Name
