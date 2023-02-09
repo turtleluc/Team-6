@@ -147,6 +147,7 @@ Library: lib_burst_generated
 --root-assembly=C:\Users\luil\Documents\GitHub\Team-6\Temp\StagingArea\Data\Managed\Assembly-CSharp.dll
 --root-assembly=C:\Users\luil\Documents\GitHub\Team-6\Temp\StagingArea\Data\Managed\Unity.Services.Core.Telemetry.dll
 --root-assembly=C:\Users\luil\Documents\GitHub\Team-6\Temp\StagingArea\Data\Managed\Unity.InputSystem.dll
+--root-assembly=C:\Users\luil\Documents\GitHub\Team-6\Temp\StagingArea\Data\Managed\Ink-Libraries.dll
 --root-assembly=C:\Users\luil\Documents\GitHub\Team-6\Temp\StagingArea\Data\Managed\Unity.VisualScripting.State.dll
 --root-assembly=C:\Users\luil\Documents\GitHub\Team-6\Temp\StagingArea\Data\Managed\Unity.VisualScripting.Core.dll
 --root-assembly=C:\Users\luil\Documents\GitHub\Team-6\Temp\StagingArea\Data\Managed\Unity.Services.Core.Environments.Internal.dll

@@ -10,7 +10,7 @@ VAR know_about_food_issue = false
 
 {ShowCharacter("Player", "Left", "Uncomfortable")}
 {ShowCharacter("Alice", "Right", "Sad")}
-Mike: Nou ben ik weer, frituur stond weer eens te hoog. 
+Mike: Daar ben ik weer, frituur stond weer eens te hoog. 
 Mike: Had je m’n berichtje nog gelezen?
 {ChangeMood("Alice", "Serious")}
 {ChangeMood("Player", "Uncomfortable")}
