@@ -20,9 +20,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Scene_3.unity
     guid: faf2625906905fc4bb616fdd156a034b
-  - enabled: 1
-    path: Assets/Scenes/Scene_4.unity
-    guid: b98ab058ef1c242429d91e7bebe54e22
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/Scene_Spel.unity
     guid: 44d9ee5d228b46a4ca85f6f518939bf6
@@ -32,9 +32,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Scene_6.unity
     guid: e89936671763ac140a9c15295b1ccd2e
-  - enabled: 1
-    path: Assets/Scenes/Scene_7.unity
-    guid: 73531630941ff3647a07c5c8ac1896cd
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/Scene_8.unity
     guid: 6db71293c65fa5042bb6e34ff1c03732
