@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class afsluiten : MonoBehaviour
 {
@@ -15,8 +16,8 @@ public class afsluiten : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0))      
       {
-        Application.Quit();
-      }
+            SceneManager.LoadScene("Menu");
+        }
 
     }
 }

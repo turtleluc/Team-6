@@ -12,7 +12,7 @@ public class Site : MonoBehaviour
 
     public void LsiteGame()
     {
-        SceneManager.LoadScene("Scene_5");
+        SceneManager.LoadScene("Scene_7");
     }
 
 }
