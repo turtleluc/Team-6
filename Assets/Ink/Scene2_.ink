@@ -31,7 +31,6 @@ Jeroen: Steve?
  Steve: Hm? Oh ja klinkt goed, wanneer moet je het hebben?
 {ChangeMood("Player", "Sad")}
 Jeroen: Voor Juli is goed, duurt nog even voor de zomervakantie.
-
 {ChangeMood("Alice", "SadHappy")}
 {ChangeMood("Player", "Fine")}
 Steve: Komt goed!

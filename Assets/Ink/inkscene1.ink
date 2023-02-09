@@ -10,7 +10,7 @@ VAR know_about_food_issue = false
 
 {ShowCharacter("Alice", "Right", "Sad")}
 Paula: STEVE!!! 
-lig je nog steeds in bed? Je komt zo te laat. Alwéér''",
+lig je nog steeds in bed? Je komt zo te laat. Alwéér!!
 {ShowCharacter("Player", "Left", "Fine")}
 Steve: Huh?! Wat?! Oh nee, niet weer...
        
