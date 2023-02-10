@@ -13,9 +13,10 @@ Steve: Als je nog open diensten hebt geef ze dan maar aan mij! Ik heb meer tijd 
  {ShowCharacter("Alice", "Right", "Sad")}
 Mike: Weet je dat zeker? Niet zo'n hele belangrijke afspraak zoals school? 
 {ChangeMood("Alice", "Serious")}
+{ChangeMood("Player", "Sad")}
 Steve: Ik heb eerder vrij omdat ons groepje al klaar is met het project. 
 {ChangeMood("Alice", "Upset")}
-{ChangeMood("Player", "Sad")}
+{ChangeMood("Player", "Surprised")}
 Mike: Als jij het zegt dan heb ik nog een shift open voor woensdag om… 
      {HideCharacter("Alice")}    
       {HideCharacter("Player")}

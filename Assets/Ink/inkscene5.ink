@@ -21,7 +21,7 @@ Steve: Mijn vrienden wouden op vakantie met de groep en ik zei dat ik meeging…
 {ChangeMood("Alice", "Upset")}
 Mike: Dus ga je spijbelen om toch maar wat meer te kunnen werken. Je had je ouders toch ook kunnen vragen om wat geld bij te leggen?
 {ChangeMood("Alice", "Serious")}
-{ChangeMood("Player", "Fine")}
+{ChangeMood("Player", "Upset")}
 Steve: Ik wil die vakantie helemaal zelf kunnen betalen. 
 {ChangeMood("Player", "Uncomfortable")}
 {ChangeMood("Alice", "Upset")}

@@ -21,8 +21,8 @@ Jeroen: Maarrr, iedereen betaalt wel een deel mee natuurlijk. Sowieso de vliegti
  Jeroen: Dat is zo ongeveer 650 euro per persoon.
  {ChangeMood("Alice", "Serious")}
 Mak: prima, stuur dan even een betaalverzoek in de groepsapp.
-{ChangeMood("Friend", "Upset")}
 {ChangeMood("Alice", "Fine")}
+{ChangeMood("Player", "Uncomfortable")}
 Jeroen: Steve? 
 {ChangeMood("Player", "Fine")}
  Steve: Hm? Oh ja klinkt goed, wanneer moet je het hebben?

@@ -71,7 +71,7 @@ public class Character : MonoBehaviour
         switch (Position)
         {
             case CharacterPosition.Left:
-                _onScreenX = Screen.width * 0.25f;
+                _onScreenX = Screen.width * 0.30f;
                 _offScreenX = -Screen.width * 0.25f;
                 break;
             case CharacterPosition.Center:

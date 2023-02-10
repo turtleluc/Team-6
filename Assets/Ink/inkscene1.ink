@@ -11,9 +11,9 @@ VAR know_about_food_issue = false
 {ShowCharacter("Alice", "Right", "Sad")}
 Paula: STEVE!!! 
 lig je nog steeds in bed? Je komt zo te laat. Alwéér!!
-{ShowCharacter("Player", "Left", "Fine")}
+{ShowCharacter("Player", "Left", "Upset")}
 Steve: Huh?! Wat?! Oh nee, niet weer...
-       
+       {ChangeMood("Player", "Fine")}
      Paula: Steve Goedhuis, je bent nu verdomd 18 jaar en ik moet je nog steeds uit je bed trommelen zodat je op tijd op school komt. Ga nou eens naar je leeftijd gedragen!
        
       Steve: ja, ja, ik ga al!
