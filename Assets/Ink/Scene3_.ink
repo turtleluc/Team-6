@@ -8,9 +8,10 @@ VAR mental_health = 50
 VAR know_about_food_issue = false
 
 {ShowCharacter("Player", "Left", "Fine")}
+{ShowCharacter("Alice", "Right", "Upset")}
 Steve: Als je nog open diensten hebt geef ze dan maar aan mij! Ik heb meer tijd deze maand. 
  {ChangeMood("Player", "Surprised")}
- {ShowCharacter("Alice", "Right", "Sad")}
+ {ChangeMood("Alice", "Sad")}
 Mike: Weet je dat zeker? Niet zo'n hele belangrijke afspraak zoals school? 
 {ChangeMood("Alice", "Serious")}
 {ChangeMood("Player", "Sad")}

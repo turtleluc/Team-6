@@ -23,6 +23,7 @@ Mike: Hey Steve.
 Mike knipte zijn vingers voor Steves ogen. 
 {ChangeMood("Player", "Serious")} 
 Steve: Huh wat? Oh. 
+{ChangeMood("Player", "Upset")}   
 {ChangeMood("Alice", "Surprised")}   
 Mike: Gaat het wel jongen? Je bent spierwit Kom. 
 {HideCharacter("Alice")}

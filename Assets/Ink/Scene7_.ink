@@ -17,8 +17,7 @@ Mike: Had je m’n berichtje nog gelezen?
 Steve: Ja hier zijn ze.
 {ChangeMood("Alice", "Sad")}
 {ChangeMood("Player", "Upset")}
-Mike: Top, mag je dit voor me invullen. 
-Klik nu op de monitor 
+Mike: Top, mag je dit voor me invullen. Klik nu op de monitor 
 Mike: Okay, nu gaan we naar aangifte inkomstenbelasting en dan mag checken je of al je persoonsgegevens kloppen en daarna mag je je telefoonnummer invullen. 
 Mike: Goed nu komt het lange gedeelte. Hier mag je de vakjes aanklikken die voor jou van toepassing zijn. Dus dingen zoals ‘dit jaar getrouwd’ mag je openlaten. 
 {ChangeMood("Alice", "Serious")}
@@ -38,7 +37,7 @@ Steve: Wanneer krijg ik het geld dan binnen?
 {ChangeMood("Player", "Upset")}
 Mike: Binnen één week krijg je bericht dat je geld terugkrijgt waarna je na een klein maandje het geld krijgt, als dat niet zo is moet je bellen met de belastingdienst. 
 {ChangeMood("Alice", "Serious")}
-{ChangeMood("Player", "Upset")}
+{ChangeMood("Player", "Fine")}
 Steve: Cool, dan verstuur ik hem. Dankjewel voor je hulp! 
 {ChangeMood("Alice", "Crying")}
 {ChangeMood("Player", "Upset")}

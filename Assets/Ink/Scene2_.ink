@@ -6,14 +6,14 @@ VAR relationship_strength = 80
 VAR mental_health = 50
 
 VAR know_about_food_issue = false
-
+{ShowCharacter("Player", "Left", "Sad")}
 {ShowCharacter("Alice", "Right", "Serious")}
  Mak: Yo Steve! kom ff! Jeroen heeft een goed idee. 
  {ChangeMood("Alice", "Upset")}
   {ChangeMood("Alice", "Fine")}
  Jeroen: Ik dacht, laten we met z'n allen na dit semester een week op vakantie gaan... Naar Spanje! 
  {ChangeMood("Alice", "SadHappy")}
- {ShowCharacter("Player", "Left", "Fine")}
+ {ChangeMood("Player", "Fine")}
  Steve: Spanje? Ik ga mee! 
  {ChangeMood("Player", "Sad")}
   {ChangeMood("Alice", "Fine")}
