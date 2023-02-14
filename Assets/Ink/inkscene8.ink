@@ -9,4 +9,5 @@ VAR know_about_food_issue = false
 
 Tijdens het zwemmen in Spanje moest hij eens terugdenken aan twee week geleden.
 Wat was hij blij dat het rond was, nu kan hij eindelijk genieten van zijn cocktails, tapas en de zee.
+    Druk op volgende.
     -> END

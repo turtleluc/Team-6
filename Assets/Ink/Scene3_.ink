@@ -21,4 +21,4 @@ Steve: Ik heb eerder vrij omdat ons groepje al klaar is met het project.
 Mike: Als jij het zegt dan heb ik nog een shift open voor woensdag om… 
      {HideCharacter("Alice")}    
       {HideCharacter("Player")}
-    -> DONE
+    Druk op volgende.

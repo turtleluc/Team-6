@@ -33,4 +33,4 @@ Jeroen: Voor Juli is goed, duurt nog even voor de zomervakantie.
 Steve: Komt goed!
 {HideCharacter("Alice")}
 {HideCharacter("Player")}
-    -> DONE
+     Druk op volgende.

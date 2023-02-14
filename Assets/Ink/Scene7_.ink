@@ -51,4 +51,4 @@ Steve: Nou doei!
     {HideCharacter("Alice")}    
     {HideCharacter("Player")}
 Het invullen was gelukt! Nu alleen nog afwachten op het geld en dan was het zover. Hij kon mee naar Spanje!
-    -> DONE
+     Druk op volgende.

@@ -26,3 +26,4 @@ Hij sloeg een diepe zucht, blijkbaar was hij vergeten het bakje uit te schuiven.
 
 Wanneer Steve zijn jaaropgaves had opgepakt checkte hij het lijstje nog een keer. Toen hij tevreden was liep hij de deur uit naar school.
     {HideCharacter("Player")}
+     Druk op volgende.

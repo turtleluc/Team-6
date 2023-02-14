@@ -33,4 +33,4 @@ Steve: Huh?! Wat?! Oh nee, niet weer...
       Paula: Jup, love you.
       {HideCharacter("Alice")}    
       {HideCharacter("Player")}
-    -> DONE
+    Druk op volgende.

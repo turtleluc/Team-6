@@ -28,4 +28,4 @@ Steve: Huh wat? Oh.
 Mike: Gaat het wel jongen? Je bent spierwit Kom. 
 {HideCharacter("Alice")}
 {HideCharacter("Player")}
-    -> DONE
+    Druk op volgende.

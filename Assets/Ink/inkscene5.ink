@@ -55,4 +55,4 @@ steve: Zal ik doen! Werk ze!
 mike: Yow!
   {HideCharacter("Alice")}    
   {HideCharacter("Player")}
--> DONE
+ Druk op volgende.
