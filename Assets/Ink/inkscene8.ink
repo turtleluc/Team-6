@@ -7,7 +7,7 @@ VAR mental_health = 50
 
 VAR know_about_food_issue = false
 
-Tijdens het zwemmen in Spanje moest hij eens terugdenken aan twee week geleden.
+Tijdens het zwemmen in Spanje moest hij eens terugdenken aan die twee weken.
 Wat was hij blij dat het rond was, nu kan hij eindelijk genieten van zijn cocktails, tapas en de zee.
     Druk op volgende.
     -> END

@@ -17,7 +17,8 @@ Mike: Had je m’n berichtje nog gelezen?
 Steve: Ja hier zijn ze.
 {ChangeMood("Alice", "Sad")}
 {ChangeMood("Player", "Upset")}
-Mike: Top, mag je dit voor me invullen. Klik nu op de monitor 
+Mike: Top, mag je dit voor me invullen. 
+Klik nu op de monitor 
 Mike: Okay, nu gaan we naar aangifte inkomstenbelasting en dan mag checken je of al je persoonsgegevens kloppen en daarna mag je je telefoonnummer invullen. 
 Mike: Goed nu komt het lange gedeelte. Hier mag je de vakjes aanklikken die voor jou van toepassing zijn. Dus dingen zoals ‘dit jaar getrouwd’ mag je openlaten. 
 {ChangeMood("Alice", "Serious")}

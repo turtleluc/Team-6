@@ -26,6 +26,7 @@ Steve: Huh?! Wat?! Oh nee, niet weer...
       {ChangeMood("Alice", "Serious")}
       oh ja, je trein vertrekt over 10 minuten.
       {ChangeMood("Player", "Surprised")}
+     {ChangeMood("Alice", "Upset")}
       Steve: WAT? 
       EN DAT ZEG JE NU PAS!
        {ChangeMood("Player", "Sad")}
